@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Reshufowzi/java-webapps-jenkins.git'
+                    url: 'https://github.com/hharan1899-lgtm/java-webapps-jenkins.git'
             }
         }
 
@@ -44,3 +44,4 @@ pipeline {
         }
     }
 }
+
